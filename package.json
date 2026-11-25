@@ -1,0 +1,30 @@
+{
+  "name": "rtk-fs-delivery-api",
+  "version": "1.0.0",
+  "description": "API for managing delivery in RTK FS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/server.ts --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhermexpc/rtk-fs-delivery-api.git"
+  },
+  "keywords": [],
+  "author": "Guilherme P. Campos",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/guilhermexpc/rtk-fs-delivery-api/issues"
+  },
+  "homepage": "https://github.com/guilhermexpc/rtk-fs-delivery-api#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.1.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
